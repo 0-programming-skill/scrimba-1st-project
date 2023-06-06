@@ -1,0 +1,49 @@
+body {
+    display: flex;
+    background-color: whitesmoke;
+    font-family: Oxygen;
+    font-weight: bold;
+    text-align: center;
+    height: 100vh;
+    width: 100%;
+}
+
+div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+}
+
+h1 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+h2 {
+    font-size: 50px;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+button {
+    border: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+    font-weight: bold;
+    width: 200px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#increment-btn {
+    background: blue;
+}
+
+#save-btn {
+    background: black;
+}
+
